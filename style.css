@@ -22,7 +22,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: flex-end;
-overflow: hidden;
+
 }
 .container p,h1{
  text-align: center;
@@ -43,28 +43,32 @@ overflow: hidden;
     justify-content: space-around;
     background-color:  hsl(225, 100%, 98%);
     width: 350px;
-    border-radius: 8%;
+    border-radius: 15px;
     margin-bottom: 2rem; ;
+}
+.firstInnerContainer .change-class a:hover{
+    text-decoration: none;
 }
 
 .secInnercontainer{
-    background-color: hsl(223, 47%, 23%);
+    background-color: hsl(245, 75%, 52%);
     align-items: center;
     justify-content: center;
     width: 300px;
-    border-radius: 8%;
+    border-radius: 18px;
     color: aliceblue;
     box-shadow: 15px 15px 15px  hsl(224, 23%, 55%);
 }
-
-@media(max-width:1440px){
+.secInnercontainer:hover{
+    color: hsl(225, 100%, 80%);
+    box-shadow: 0 15px 12px 0px hsla(245, 83%, 68%, 18%);
+    
+}
+/*
+@media(max-width:1000px){
     .container{
       width: 375px;
     }
   
 }
-  
-
-
-
-
+*/
